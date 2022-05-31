@@ -1,0 +1,27 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Muscle legends script made by XDSain", "Ocean")
+
+-- Tabs
+local Tab1 = Window:NewTab("free script")
+local Tab2 = Window:NewTab("old auto farm")
+local Tab3 = Window:NewTab("new auto farm")
+
+-- Sections inside tabs
+local Tab1Section = Tab1:NewSection("free script")
+local Tab2Section = Tab2:NewSection("old auto farm")
+local Tab3Section = Tab3:NewSection("new auto farm")
+
+-- Buttons
+Tab1Section:NewButton("free script", "free", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LOOF-sys/Roblox-Shit/main/MuscleLegends_1.lua"))()
+end)
+
+-- Tab2
+Tab2Section:NewButton("old auto farming script", "old version", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Protected%20-%202022-04-07T225255.962.lua.txt"))()
+end)
+
+-- Tab3
+Tab3Section:NewButton("new", "new auto farm", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
+end)
